@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
+ * main - Main program prints lowercase and upper case alphabet
  *
- * Return Always (0) Success
+ * Return: Always (0) Success
  */
 int main(void)
 {
 	char alphabet;
 
-	for (alphabet ='a', alphabet <= 'z'; alphabet++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 		putchar(alphabet);
 	putchar('\n');
 	return (0);
